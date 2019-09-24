@@ -18,3 +18,4 @@
 * 20190620  更新 100QuestionforImageProcessing Q1-3
 * 20190714  更新 python copy or equal 
 * 20190907  增加DRL强化学习内容
+* 20190924  增加np随机数生成
