@@ -113,3 +113,5 @@ venv.bak/
 test_*
 
 */.DS_Store
+
+*/cmake-build-debug/

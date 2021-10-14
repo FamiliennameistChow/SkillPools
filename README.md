@@ -1,5 +1,4 @@
-# 小白进阶历程
-
+# 常用库解析
 
 ## 目录结构
 
@@ -15,7 +14,7 @@
 
 * [PCL](./pcl_tutorials)
 
-* [pytorch][./pytorch_tutorials]
+* [pytorch](./pytorch_tutorials)
 
 * [libtorch](./libtorch_tutorials)
 
