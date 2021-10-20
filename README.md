@@ -18,6 +18,8 @@
 
 * [libtorch](./libtorch_tutorials)
 
+* [c++](./cplusplus_tutorials)
+
 -----
 # 更新日志
 * 20190620  更新 100QuestionforImageProcessing Q1-3
@@ -25,3 +27,4 @@
 * 20190907  增加DRL强化学习内容
 * 20190924  增加np随机数生成
 * 20211014  回归
+* 20201020  add cplusplus tutorials

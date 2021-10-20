@@ -4,3 +4,5 @@ project(cplusplus_tutorials)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(read_txt read_txt.cpp)
+
+add_executable(vector_demo vector_demo.cpp)
