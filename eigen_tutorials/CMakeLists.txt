@@ -6,8 +6,6 @@ find_package(Eigen3 REQUIRED)
 
 include_directories(${EIGEN3_INCLUDE_DIRS})
 
-add_executable(test eigen_test.cpp eigen_transfrom.cpp)
-
 add_executable(eigen_transfrom eigen_transfrom.cpp)
 
 add_executable(eigen_geometry eigen_geometry.cpp)
