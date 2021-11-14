@@ -66,8 +66,25 @@ int main(){
 
     // ----------------------  k临近搜索: 按范围搜索 -------------------------
 
+    std::vector<int> pointIdxRadiusSearch;
+    std::vector<float> pointRadiusSquaredDistance;
+
+    float radius = 2;
+
+    std::cout << "Neighbors within radius search at (" << searchPoint.x
+              << " " << searchPoint.y
+              << " " << searchPoint.z
+              << ") with radius=" << radius << std::endl;
 
 
+    if ( kdtree.radiusSearch (searchPoint, radius, pointIdxRadiusSearch, pointRadiusSquaredDistance) > 0 )
+    {
+        for (size_t i = 0; i < pointIdxRadiusSearch.size (); ++i)
+            std::cout << "    "  <<   cloud->points[ pointIdxRadiusSearch[i] ].x
+                      << " " << cloud->points[ pointIdxRadiusSearch[i] ].y
+                      << " " << cloud->points[ pointIdxRadiusSearch[i] ].z
+                      << " (squared distance: " << pointRadiusSquaredDistance[i] << ")" << std::endl;
+    }
 
     return 0;
 }
