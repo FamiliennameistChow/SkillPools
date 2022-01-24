@@ -37,14 +37,15 @@ int main(){
 
     pcl::CropBox<PointType> box_filter; //需要引用 #include <pcl/filters/crop_box.h>
 
-    float box_size = 2;
+    float box_size = 1;
     // 设置box大小
     // setMin setMax 并不是box中任意两个对角点，一定要找到值最小与最大的两个对角点
     box_filter.setMin(Eigen::Vector4f(-box_size/2, -box_size/2, -box_size/2, 1.0));
     box_filter.setMax(Eigen::Vector4f(box_size/2, box_size/2, box_size/2, 1.0));
 
     // 设置box的位姿
-    box_filter.setTransform();
+    box_filter.setTranslation(Eigen::Vector3f(1.0, 0.0, 0.0));
+    box_filter.setRotation(Eigen::Vector3f(0.0, 0.0, 0.6));
 
     // 设置滤除
     box_filter.setNegative(false); //false 是表示去除box外的点，true 表示去除box内的点
