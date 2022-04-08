@@ -24,8 +24,8 @@ int main(){
     Eigen::Matrix3d rotation_matrix = Eigen::Matrix3d::Identity(); //单位矩阵
 
     // *** 旋转向量使用 AngleAxis, 它底层不直接是Matrix，但运算可以当作矩阵（因为重载了运算符）
-    Eigen::AngleAxisd rotation_vector ( M_PI/4, Eigen::Vector3d ( 0,0,1 ) ); // 绕z轴旋转 M_PI/4 弧度
-    Eigen::AngleAxisd rotation_vector_2 (M_PI/4, Eigen::Vector3d::UnitZ());
+    Eigen::AngleAxisd rotation_vector ( M_PI/2, Eigen::Vector3d ( 0,0,1 ) ); // 绕z轴旋转 M_PI/4 弧度
+    Eigen::AngleAxisd rotation_vector_2 (M_PI/2, Eigen::Vector3d::UnitZ());
     cout<<"rotation matrix =\n"<<rotation_vector.matrix() <<endl;
 
     // ------ 旋转向量 --> 旋转矩阵--------
@@ -50,7 +50,7 @@ int main(){
     Eigen::Isometry3d T = Eigen::Isometry3d::Identity();  // 虽然称为3d，实质上是4＊4的矩阵
     T.rotate( rotation_vector);  // 使用rotation_vector进行旋转
     // T.rotate( rotation_matrix);  // 使用rotation_matrix进行旋转
-    T.pretranslate(Eigen::Vector3d(1, 2, 3)); //把平移向量设成(1,3,4)
+    T.pretranslate(Eigen::Vector3d(1, 0, 0)); //把平移向量设成(1,3,4)
 
     // ------- 使用变换矩阵进行坐标变换
     Eigen::Vector3d v_transformed = T*v; // 左乘 相当于 R*v + t

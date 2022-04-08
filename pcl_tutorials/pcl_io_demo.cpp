@@ -5,22 +5,24 @@
  * @Date: 2021.09.26
  * 
  * @Description:
- *  
+ * pcl库读取数据
+ * 1.读入pcd文件
+ * 2.读入ply文件
  * 
  ***************************************************************************/
 //
 #include <pcl/io/pcd_io.h>
 #include <pcl/point_types.h>
-#include <pcl/io/ply_io.h>
+#include <pcl/io/ply_io.h> //读写相关函数类
 #include <pcl/visualization/pcl_visualizer.h>
 #include <iostream>
 #include <vector>
 
-typedef pcl::PointXYZI  PointType;
+typedef pcl::PointXYZI  c;
 using namespace std;
 
-//#define PCD_FILE
-#define PLY_FILE
+#define PCD_FILE
+//#define PLY_FILE
 
 int main(){
 
@@ -51,20 +53,14 @@ int main(){
     boost::shared_ptr<pcl::visualization::PCLVisualizer> viewer (new pcl::visualization::PCLVisualizer("3D Viewer"));
 
     viewer->setBackgroundColor(1, 1, 1);
-//    viewer->addCoordinateSystem(1.0);
+    viewer->addCoordinateSystem(1.0);
 
     pcl::visualization::PointCloudColorHandlerCustom<PointType> single_color(cloud, 0, 255, 0);
 
-//    pcl::visualization::PointCloudColorHandlerGenericField<PointType> fildColor(cloud, "intensity"); // 按照 intensity 强度字段进行渲染
     viewer->addPointCloud<PointType>(cloud, single_color, "cloud");
     viewer->setPointCloudRenderingProperties(pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "cloud");
-
-
-
 
     while (!viewer->wasStopped()){
         viewer->spinOnce();
     }
-//
-//    return 0;
 }

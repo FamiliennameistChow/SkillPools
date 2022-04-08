@@ -26,3 +26,9 @@ target_link_libraries (kdtree_search_demo ${PCL_LIBRARIES} )
 
 add_executable(box_filter_demo box_filter_demo.cpp)
 target_link_libraries(box_filter_demo ${PCL_LIBRARIES})
+
+add_executable(pcl_io_write pcl_io_write.cpp)
+target_link_libraries(pcl_io_write ${PCL_LIBRARIES})
+
+add_executable(appendix_function appendix_function.cpp)
+target_link_libraries(appendix_function ${PCL_LIBRARIES})
