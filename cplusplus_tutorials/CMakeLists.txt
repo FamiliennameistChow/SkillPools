@@ -16,3 +16,9 @@ add_executable(struct_demo3 struct_demo3.cpp)
 add_executable(queue_demo queue_demo.cpp)
 
 add_executable(deque_demo deque_demo.cpp)
+
+add_executable(map_demo map_demo.cpp)
+
+add_executable(map_demo2 map_demo2.cpp)
+
+add_executable(map_demo3 map_demo3.cpp)

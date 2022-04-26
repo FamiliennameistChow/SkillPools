@@ -373,7 +373,7 @@ void sort_vector(){
          }
      }
 
-     //降序排序
+     //降序排序 >
      bool operator > (const Node &n) const
      {
          if(this->f == n.f){
