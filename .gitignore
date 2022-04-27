@@ -118,3 +118,5 @@ test_*
 */cmake-build-debug/
 
 */test.cpp
+
+*/.idea/*
