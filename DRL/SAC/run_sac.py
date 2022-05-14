@@ -3,7 +3,7 @@
 #
 # File: DRL  --- > SAC_model.py
 # Author: bornchow
-# Date:20210623
+# Date: 20210623
 # Link: https://www.bilibili.com/video/BV1ha411A7pR/?spm_id_from=333.788.recommend_more_video.-1
 # ------------------------------------
 
@@ -18,6 +18,9 @@ import gym
 import numpy as np
 from utils import plot_learning_curve
 from torch.utils.tensorboard import SummaryWriter
+import time
+import sys
+
 
 
 class Agent(object):
@@ -116,6 +119,7 @@ class Agent(object):
         self.value.optimizer.zero_grad()
         value_target = critic_value - log_probs
         value_loss = 0.5 * F.mse_loss(value, value_target)
+        self.writer.add_scalar("value_loss", value_loss, self.learn_step_counter)
         value_loss.backward(retain_graph=True)
         self.value.optimizer.step()
 
@@ -133,6 +137,7 @@ class Agent(object):
 
         actor_loss = log_probs - critic_value
         actor_loss = torch.mean(actor_loss)
+        self.writer.add_scalar("actor_loss", actor_loss, self.learn_step_counter)
         self.actor.optimizer.zero_grad()
         actor_loss.backward(retain_graph=True)
         self.actor.optimizer.step()
@@ -141,12 +146,17 @@ class Agent(object):
         self.critic_1.optimizer.zero_grad()
         self.critic_2.optimizer.zero_grad()
         q_hat = self.scale * reward + self.gamma * value_
+        # print(type(self.scale), " ", self.scale)
+        # print(type(reward), " ", reward)
+        # print(type(self.gamma), " ", self.gamma)
+        # print(type(value_), " ", value_)
         q1_old_policy = self.critic_1(state, action).view(-1)
         q2_old_policy = self.critic_2(state, action).view(-1)
         critic_1_loss = 0.5 * F.mse_loss(q1_old_policy, q_hat)
         critic_2_loss = 0.5 * F.mse_loss(q2_old_policy, q_hat)
 
         critic_loss = critic_1_loss + critic_2_loss
+        self.writer.add_scalar("critic_loss", critic_loss, self.learn_step_counter)
         critic_loss.backward()
         self.critic_1.optimizer.step()
         self.critic_2.optimizer.step()

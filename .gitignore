@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+*__pycache__/
 *.py[cod]
 *$py.class
 
@@ -115,8 +115,11 @@ test_*
 */.DS_Store
 .DS_Store
 
-*/cmake-build-debug/
+*cmake-build-debug/
 
 */test.cpp
 
-*/.idea/*
+*.idea/
+*logs/
+*model/
+

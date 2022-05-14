@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bbb7c36-36e5-4239-9a8a-92ccacaee7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SAC/buffer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAC/network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SAC/run_sac.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../python/numpy/numpy_slide.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pytorch_tutorials/torch_silde.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DRL.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DRL.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAC/run_sac.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAC/run_sac.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/numpy/numpy_fuction_example.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../python/numpy/numpy_fuction_example.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,9 @@
         <option value="$PROJECT_DIR$/Q-learning/test.py" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="57" />
@@ -93,18 +97,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../rl-tutorials/PPO" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.RL_brain">
+  <component name="RunManager" selected="Python.run_sac">
     <configuration name="RL_brain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="maze_env" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="buffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,12 +141,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning/demo_2_dim" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/demo_2_dim/maze_env.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAC/buffer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_sac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,12 +163,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAC/run_sac.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_buffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,12 +185,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sarsa" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sarsa/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAC/test_buffer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,35 +199,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_buffer.py" type="tests" factoryName="Nosetests" temporary="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning/demo_2_dim" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/demo_2_dim/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/SAC/test_buffer.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.RL_brain" />
+      <item itemvalue="Python.run_sac" />
+      <item itemvalue="Python.buffer" />
+      <item itemvalue="Python.test_buffer" />
+      <item itemvalue="Python tests.test_buffer.py" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_sac" />
+        <item itemvalue="Python.test_buffer" />
+        <item itemvalue="Python tests.test_buffer.py" />
+        <item itemvalue="Python.buffer" />
         <item itemvalue="Python.RL_brain" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.train (1)" />
-        <item itemvalue="Python.maze_env" />
       </list>
     </recent_temporary>
   </component>
@@ -243,6 +250,25 @@
       <workItem from="1568040353557" duration="8297000" />
       <workItem from="1568185422766" duration="2589000" />
       <workItem from="1651034399324" duration="4738000" />
+      <workItem from="1651060433840" duration="4739000" />
+      <workItem from="1651116969791" duration="3394000" />
+      <workItem from="1651136135173" duration="6000" />
+      <workItem from="1651136153634" duration="3383000" />
+      <workItem from="1651204688897" duration="6467000" />
+      <workItem from="1651213588367" duration="10000" />
+      <workItem from="1651213622365" duration="10000" />
+      <workItem from="1651213650874" duration="17000" />
+      <workItem from="1651213685719" duration="18000" />
+      <workItem from="1651213718570" duration="7836000" />
+      <workItem from="1651227589601" duration="14000" />
+      <workItem from="1651227621199" duration="2765000" />
+      <workItem from="1651294705774" duration="3096000" />
+      <workItem from="1651483242478" duration="1811000" />
+      <workItem from="1651559028550" duration="8000" />
+      <workItem from="1651559050078" duration="777000" />
+      <workItem from="1651559873486" duration="6560000" />
+      <workItem from="1652062344952" duration="22000" />
+      <workItem from="1652062472068" duration="12000" />
     </task>
     <servers />
   </component>
@@ -281,9 +307,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DRL$RL_brain.coverage" NAME="RL_brain Coverage Results" MODIFIED="1651040153251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q-learning/demo_2_dim" />
     <SUITE FILE_PATH="coverage/DRL$train.coverage" NAME="train Coverage Results" MODIFIED="1651034485482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q-learning/demo_2_dim" />
+    <SUITE FILE_PATH="coverage/DRL$Nosetests_in_test_buffer_py.coverage" NAME="test_buffer.py Coverage Results" MODIFIED="1651122398960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
+    <SUITE FILE_PATH="coverage/DRL$test_buffer.coverage" NAME="test_buffer Coverage Results" MODIFIED="1651123294293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
+    <SUITE FILE_PATH="coverage/DRL$buffer.coverage" NAME="buffer Coverage Results" MODIFIED="1651122387728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
+    <SUITE FILE_PATH="coverage/DRL$run_sac.coverage" NAME="run_sac Coverage Results" MODIFIED="1651581724522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.5/tkinter/__init__.py">
