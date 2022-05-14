@@ -32,3 +32,6 @@ target_link_libraries(pcl_io_write ${PCL_LIBRARIES})
 
 add_executable(appendix_function appendix_function.cpp)
 target_link_libraries(appendix_function ${PCL_LIBRARIES})
+
+add_executable(make_traj_demo make_traj_demo.cpp)
+target_link_libraries(make_traj_demo ${PCL_LIBRARIES})

@@ -22,3 +22,9 @@ add_executable(map_demo map_demo.cpp)
 add_executable(map_demo2 map_demo2.cpp)
 
 add_executable(map_demo3 map_demo3.cpp)
+
+add_executable(set_demo set_demo.cpp)
+
+add_executable(double_pointer_demo double_pointer_demo.cpp)
+
+add_executable(string_demo string_demo.cpp)

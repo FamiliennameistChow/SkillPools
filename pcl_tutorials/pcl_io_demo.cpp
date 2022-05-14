@@ -18,7 +18,7 @@
 #include <iostream>
 #include <vector>
 
-typedef pcl::PointXYZI  c;
+typedef pcl::PointXYZI PointType;
 using namespace std;
 
 #define PCD_FILE
