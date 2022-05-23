@@ -1,9 +1,9 @@
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 #
-# File: DRL --- > run_dqn.py.py
+# File: DRL --- > run_ddqn.py.py
 # Author: bornchow
-# Time:20220515
+# Time:20220523
 #
 # ------------------------------------
 import gym
@@ -103,8 +103,10 @@ class DQN(object):
         q_eval = self.eval_net(b_s).gather(1, b_a)  # shape(batch_size, 1)
         # q_target   = r + gamma * v(s_{t+1})  if state != Terminal
         #            = r                           otherwise
-        q_next = self.target_net(b_s_).max(1)[0].view(-1, 1).detach()  # shape (batch_size, 2)
-        q_target = b_r + self.gamma*q_next*(1-b_done)  # shape(batch_size, 1)
+        # ---DDQN的主要改动在 q_next 这里
+        # q_next = self.target_net(b_s_).max(1)[0].view(-1, 1).detach()  # shape (batch_size, 2)
+        q_next = self.target_net(b_s_).gather(1, self.eval_net(b_s_).argmax(dim=1, keepdim=True)).detach()
+        q_target = b_r + self.gamma * q_next * (1-b_done)  # shape(batch_size, 1)
 
         loss = F.smooth_l1_loss(q_target, q_eval)
         self.writer.add_scalar("loss", loss, self.learn_step_counter)
@@ -120,6 +122,7 @@ class DQN(object):
             ) * self.epsilon_decay)
 
         self.learn_step_counter += 1
+
 
 if __name__ == "__main__":
     env = gym.make("CartPole-v1")
@@ -166,4 +169,16 @@ if __name__ == "__main__":
         print("episode {}  reward {} ".format(i, episode_reward))
         dqn.writer.add_scalar("reward ", episode_reward, i)
 
-    dqn.writer.close()
+    dqn.writer.close
+
+    # sim_data = torch.rand((2, 4)).type(torch.FloatTensor)
+    # out = dqn.eval_net(sim_data)
+    #
+    # print(out)
+    #
+    # print(out.max(1)[1])
+    #
+    # print(out.argmax(dim=1, keepdim=False))
+    #
+    # target_out = dqn.target_net(sim_data).gather(1, out.argmax(dim=1, keepdim=True))
+

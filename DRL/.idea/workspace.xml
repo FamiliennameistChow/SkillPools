@@ -110,8 +110,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="Python.run_dueling_dqn">
+    <configuration name="ReplayBuffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
   <component name="RunManager" selected="Python.run_sac">
     <configuration name="RL_brain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,12 +124,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning/demo_2_dim" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/demo_2_dim/RL_brain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/ReplayBuffer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +138,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="run_ddqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="buffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -146,7 +155,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_ddqn.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAC/buffer.py" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +168,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="run_dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="run_sac" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,12 +180,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_dqn.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAC/run_sac.py" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,7 +202,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="run_dueling_dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="test_buffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,12 +214,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_dueling_dqn.py" />
+=======
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAC/test_buffer.py" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,20 +236,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+    <configuration name="run_per_ddqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
     <configuration name="test_buffer.py" type="tests" factoryName="Nosetests" temporary="true">
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+=======
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SAC" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_per_ddqn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+=======
       <option name="_new_regexPattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/SAC/test_buffer.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       <method v="2" />
     </configuration>
     <list>
@@ -224,11 +279,19 @@
     </list>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
+        <item itemvalue="Python.run_dueling_dqn" />
+        <item itemvalue="Python.run_per_ddqn" />
+        <item itemvalue="Python.run_ddqn" />
+        <item itemvalue="Python.run_dqn" />
+        <item itemvalue="Python.ReplayBuffer" />
+=======
         <item itemvalue="Python.run_sac" />
         <item itemvalue="Python.test_buffer" />
         <item itemvalue="Python tests.test_buffer.py" />
         <item itemvalue="Python.buffer" />
         <item itemvalue="Python.RL_brain" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +313,11 @@
       <workItem from="1568040353557" duration="8297000" />
       <workItem from="1568185422766" duration="2589000" />
       <workItem from="1651034399324" duration="4738000" />
+<<<<<<< HEAD
+      <workItem from="1652546299326" duration="1859000" />
+      <workItem from="1652775195237" duration="2310000" />
+      <workItem from="1653124573615" duration="32142000" />
+=======
       <workItem from="1651060433840" duration="4739000" />
       <workItem from="1651116969791" duration="3394000" />
       <workItem from="1651136135173" duration="6000" />
@@ -269,6 +337,7 @@
       <workItem from="1651559873486" duration="6560000" />
       <workItem from="1652062344952" duration="22000" />
       <workItem from="1652062472068" duration="12000" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
     </task>
     <servers />
   </component>
@@ -319,13 +388,20 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DRL$run_dqn.coverage" NAME="run_dqn Coverage Results" MODIFIED="1652547562665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+    <SUITE FILE_PATH="coverage/DRL$run_dqn.coverage" NAME="run_dqn Coverage Results" MODIFIED="1653271393488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
     <SUITE FILE_PATH="coverage/DRL$RL_brain.coverage" NAME="RL_brain Coverage Results" MODIFIED="1651040153251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q-learning/demo_2_dim" />
+    <SUITE FILE_PATH="coverage/DRL$run_ddqn.coverage" NAME="run_ddqn Coverage Results" MODIFIED="1653272996581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+    <SUITE FILE_PATH="coverage/DRL$run_dueling_dqn.coverage" NAME="run_dueling_dqn Coverage Results" MODIFIED="1653293469539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
     <SUITE FILE_PATH="coverage/DRL$train.coverage" NAME="train Coverage Results" MODIFIED="1651034485482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q-learning/demo_2_dim" />
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/DRL$ReplayBuffer.coverage" NAME="ReplayBuffer Coverage Results" MODIFIED="1653266939056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+    <SUITE FILE_PATH="coverage/DRL$run_per_ddqn.coverage" NAME="run_per_ddqn Coverage Results" MODIFIED="1653289498742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+=======
     <SUITE FILE_PATH="coverage/DRL$Nosetests_in_test_buffer_py.coverage" NAME="test_buffer.py Coverage Results" MODIFIED="1651122398960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
     <SUITE FILE_PATH="coverage/DRL$test_buffer.coverage" NAME="test_buffer Coverage Results" MODIFIED="1651123294293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
     <SUITE FILE_PATH="coverage/DRL$buffer.coverage" NAME="buffer Coverage Results" MODIFIED="1651122387728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
     <SUITE FILE_PATH="coverage/DRL$run_sac.coverage" NAME="run_sac Coverage Results" MODIFIED="1651581724522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/SAC" />
+>>>>>>> 84a8623bc717abbb48c37959dba783d74dc79ee7
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.5/tkinter/__init__.py">

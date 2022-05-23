@@ -28,3 +28,7 @@ add_executable(set_demo set_demo.cpp)
 add_executable(double_pointer_demo double_pointer_demo.cpp)
 
 add_executable(string_demo string_demo.cpp)
+
+add_executable(link_demo link_demo.cpp)
+
+add_executable(thread_demo thread_demo.cpp)

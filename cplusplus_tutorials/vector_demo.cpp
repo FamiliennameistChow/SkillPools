@@ -483,7 +483,39 @@ void find_max_min(){
     std::cout << "min element is " << *smallest<< " at position " <<std::distance(std::begin(v), smallest) << std::endl;
 }
 
+void remove_overlap(){
+    std::vector<int> a {1, 1, 16, 3, 24, 5, 5, 6,};
+    std::sort(a.begin(), a.end());
 
+    std::cout << "{ ";
+    for(auto i : a){
+        std::cout << i << " ";
+    }
+    std::cout << "}" << std::endl;
+
+    auto it = unique(a.begin(), a.end());
+
+    std::cout << " ----- after unique ------" << std::endl;
+    std::cout << "{ ";
+    for(auto i : a){
+        std::cout << i << " ";
+    }
+    std::cout << "}" << std::endl;
+    std::cout << " ------it " << *it << std::endl;
+
+    a.erase(it, a.end());
+    std::cout << " ----- after erase ------" << std::endl;
+    std::cout << "{ ";
+    for(auto i : a){
+        std::cout << i << " ";
+    }
+    std::cout << "}" << std::endl;
+
+//    std::sort(a.begin(), a.end());
+//    a.erase(unique(a.begin(),a.end()), a.end());
+
+
+}
 
 
 int main() {
@@ -505,9 +537,12 @@ int main() {
 
     //sort_vector();
 
-    sort_struct();
+    // sort_struct();
 
     //find_max_min();
+
+
+     remove_overlap();
 
 
 
