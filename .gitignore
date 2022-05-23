@@ -120,3 +120,5 @@ test_*
 */test.cpp
 
 */.idea/*
+
+*logs/

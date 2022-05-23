@@ -133,5 +133,6 @@ int main(){
 //    find_char();
 
     compare_char();
+
 }
 

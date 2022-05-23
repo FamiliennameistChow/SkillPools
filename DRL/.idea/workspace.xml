@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bbb7c36-36e5-4239-9a8a-92ccacaee7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DQN/run_dqn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cplusplus_tutorials/double_pointer_demo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cplusplus_tutorials/set_demo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cplusplus_tutorials/string_demo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DQN/ReplayBuffer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DQN/run_ddqn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DQN/run_dueling_dqn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DQN/segment_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cplusplus_tutorials/link_demo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cplusplus_tutorials/thread_demo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DQN/run_dqn.py" beforeDir="false" afterPath="$PROJECT_DIR$/DQN/run_dqn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cplusplus_tutorials/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus_tutorials/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_tutorials/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_tutorials/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pcl_tutorials/pcl_io_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../pcl_tutorials/pcl_io_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus_tutorials/string_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus_tutorials/string_demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cplusplus_tutorials/vector_demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../cplusplus_tutorials/vector_demo.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,8 +109,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_dqn">
-    <configuration name="RL_brain" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.run_dueling_dqn">
+    <configuration name="ReplayBuffer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,12 +118,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning/demo_2_dim" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/demo_2_dim/RL_brain.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/ReplayBuffer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_ddqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DRL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_ddqn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_dueling_dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_dueling_dqn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run_per_ddqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DRL" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,34 +206,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sarsa" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DQN" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sarsa/train.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DRL" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Q-learning/demo_2_dim" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Q-learning/demo_2_dim/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DQN/run_per_ddqn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_dueling_dqn" />
+        <item itemvalue="Python.run_per_ddqn" />
+        <item itemvalue="Python.run_ddqn" />
         <item itemvalue="Python.run_dqn" />
-        <item itemvalue="Python.RL_brain" />
-        <item itemvalue="Python.train" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.train (1)" />
+        <item itemvalue="Python.ReplayBuffer" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +249,8 @@
       <workItem from="1568185422766" duration="2589000" />
       <workItem from="1651034399324" duration="4738000" />
       <workItem from="1652546299326" duration="1859000" />
+      <workItem from="1652775195237" duration="2310000" />
+      <workItem from="1653124573615" duration="32142000" />
     </task>
     <servers />
   </component>
@@ -285,9 +290,13 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DRL$run_dqn.coverage" NAME="run_dqn Coverage Results" MODIFIED="1652547562665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+    <SUITE FILE_PATH="coverage/DRL$run_dqn.coverage" NAME="run_dqn Coverage Results" MODIFIED="1653271393488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
     <SUITE FILE_PATH="coverage/DRL$RL_brain.coverage" NAME="RL_brain Coverage Results" MODIFIED="1651040153251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q-learning/demo_2_dim" />
+    <SUITE FILE_PATH="coverage/DRL$run_ddqn.coverage" NAME="run_ddqn Coverage Results" MODIFIED="1653272996581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+    <SUITE FILE_PATH="coverage/DRL$run_dueling_dqn.coverage" NAME="run_dueling_dqn Coverage Results" MODIFIED="1653293469539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
     <SUITE FILE_PATH="coverage/DRL$train.coverage" NAME="train Coverage Results" MODIFIED="1651034485482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Q-learning/demo_2_dim" />
+    <SUITE FILE_PATH="coverage/DRL$ReplayBuffer.coverage" NAME="ReplayBuffer Coverage Results" MODIFIED="1653266939056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
+    <SUITE FILE_PATH="coverage/DRL$run_per_ddqn.coverage" NAME="run_per_ddqn Coverage Results" MODIFIED="1653289498742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DQN" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///usr/lib/python3.5/tkinter/__init__.py">
