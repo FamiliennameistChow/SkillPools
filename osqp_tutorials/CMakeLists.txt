@@ -13,9 +13,9 @@ target_include_directories(osqp_demo PUBLIC osqp/include)
 target_link_libraries(osqp_demo ${OSQP_LIBRARY} dl)
 
 
-add_executable(test_qpproblem test_qpproblem.cpp)
-target_include_directories(test_qpproblem PUBLIC osqp/include)
-target_link_libraries(test_qpproblem ${OSQP_LIBRARY} dl)
+add_executable(qpproblem_demo qpproblem_demo.cpp)
+target_include_directories(qpproblem_demo PUBLIC osqp/include)
+target_link_libraries(qpproblem_demo ${OSQP_LIBRARY} dl)
 
 # or...
 
