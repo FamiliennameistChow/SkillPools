@@ -156,5 +156,5 @@ if __name__ == "__main__":
     N_ACTIONS = env.action_space.n
     N_STATES = env.observation_space.shape[0]
     print(N_STATES)
-    buffer = ReplayBuffer(N_STATES, 2000)
+    buffer = ReplayBuffer(N_STATES, 2000, 32)
     buffer.buffer_info()

@@ -32,3 +32,24 @@ add_executable(string_demo string_demo.cpp)
 add_executable(link_demo link_demo.cpp)
 
 add_executable(thread_demo thread_demo.cpp)
+
+find_package(yaml-cpp CONFIG REQUIRED)
+add_executable(yaml_demo yaml_demo.cpp)
+target_link_libraries(yaml_demo yaml-cpp)
+
+add_executable(stack_demo stack_demo.cpp)
+
+add_executable(shard_ptr_demo ptr/shard_ptr_demo.cpp)
+
+add_executable(test test.cpp)
+
+add_executable(work1 work1.cpp)
+
+add_executable(largeNumSub leetcode/largeNumSub.cpp)
+
+find_package(OpenCV REQUIRED)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(star Astar.cpp)
+target_link_libraries(star ${OpenCV_LIBS})
+
+

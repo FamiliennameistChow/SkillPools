@@ -1,0 +1,16 @@
+misson_point:
+  - id: 1
+    point:
+      - 20
+      - 10
+    is_stop: False
+  - id: 2
+    point:
+      - 22
+      - 22
+    is_stop: false
+  - id: 3
+    point:
+      - 2
+      - 2
+    is_stop: false
