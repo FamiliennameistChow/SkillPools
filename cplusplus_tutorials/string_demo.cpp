@@ -10,6 +10,9 @@
  ***************************************************************************/
 #include <iostream>
 #include <string>
+
+#include <sstream>
+
 using namespace std;
 
 void init_string(){
@@ -120,6 +123,29 @@ void compare_char(){
     std::cout << str1.compare(6,1,str2,4,1) << std::endl;
 }
 
+#include <vector>
+std::vector<float> Stringsplit(string str, char split)
+{
+    std::vector<float> data;
+    istringstream iss(str);	// 输入流
+    string token;			// 接收缓冲区
+    while (getline(iss, token, split))	// 以split为分隔符
+    {
+        float i = stof(token.c_str());
+        std::cout << i << std::endl;
+        data.push_back(i);
+    }
+
+    return data;
+}
+
+void split_string(){
+    string s = "10 20 10";
+
+    std::vector<float> data = Stringsplit(s, ' ');
+
+}
+
 int main(){
     std::cout << " this is string demo ...." << std::endl;
 
@@ -134,5 +160,6 @@ int main(){
 
     compare_char();
 
+    split_string();
 }
 

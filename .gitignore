@@ -116,6 +116,7 @@ test_*
 .DS_Store
 
 *cmake-build-debug/
+*build/
 
 */test.cpp
 
